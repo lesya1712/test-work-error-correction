@@ -1,0 +1,220 @@
+@import 'root.css';
+
+.header{
+    margin: 30px 0;
+}
+.header__nav h1{
+    font-family: var(--hel);
+    font-size: 17px;
+    color: var(--blue);
+    font-weight: 700;
+}
+.name__color-blue{
+    font-family: var(--hel);
+    font-size: 17px;
+    color: var(--blue);
+    font-weight: 700;
+}
+.name{
+    margin: 20px 0 0 15px;
+}
+
+.header__menu a{
+color: var(--black);
+font-family: var(--hel);
+font-size: 18px;
+font-weight: 700;
+}
+.menu__info li{
+margin-left: 50px;
+}
+.menu__icon li{
+    margin-left: 30px;
+}
+.menu__info-icon a{
+font-family: var(--hel);
+font-weight: 100;
+font-size: 14px;
+margin-top: 10px;
+}
+.menu__info-icon span{
+    font-family: var(--hel);
+    font-weight: 700;
+    font-size: 18px;
+}
+.menu__info-icon i{
+    color: var(--gray);
+    font-size: 40px;
+    margin:15px 10px 0 0;
+}
+.menu__info-text{
+    margin-top: 20px;
+}
+.menu__icon i{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.main__about{
+    margin-bottom: 50px;
+}
+.main__about-active{
+    background: var(--light_gray);
+    padding: 200px 0 180px 160px;
+}
+.main__about-active h2{
+    font-family: var(--hel);
+    font-size: 40px;
+    font-weight: 400;
+    text-shadow: 15px 10px var(--shadow_gray);
+    margin-left: 50px;
+}
+.main__about-active p{
+    margin: 60px 55px 0 50px;
+    font-family: var(--hel);
+    font-size: 16px;
+    line-height: 28px;
+}
+.main__about-background{
+    background: url(../images/Фон.png)no-repeat center center /cover;
+}
+.main__about-using{
+    background: var(--white);
+    margin: 50px 160px 50px 0;
+    padding: 50px;
+}
+.main__about-using h3{
+    font-family: var(--hel);
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.main__about-using p{
+    font-family: var(--hel);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+.main__about-using section{
+    margin-left: 10px;
+}
+.main__doc{
+    margin-left: 50px;
+}
+.main__doc h4{
+    font-family: var(--hel);
+    font-size: 30px;
+    color: var(--black);
+    margin-bottom: 40px;
+}
+.main__doc i{
+    font-size: 35px;
+}
+
+.main__doc-icon{
+    position: relative;
+    margin-bottom: 30px;
+}
+.doc-icon__file-pdf{
+    position: absolute;
+    top: 14px;
+    left: -2px;
+    background: var(--green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--hel);
+    font-size: 8px;
+    color: var(--white);
+    padding: 2px 4px;
+    background: var(--blue);
+    max-width: 22px;
+}
+.doc-icon__file{
+    position: absolute;
+    top: 14px;
+    left: -2px;
+    background: var(--green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--hel);
+    font-size: 8px;
+    color: var(--white);
+    padding: 2px;
+    background: var(--blue);
+    max-width: 22px; 
+}
+.main__doc span{
+    font-family: var(--hel);
+    font-size: 16px;
+    color: var(--black);
+    margin-left: 20px;
+}
+.footer{
+    background: black;
+    padding: 50px;
+}
+
+.footer__links h5{
+color: var(--white);
+font-family: vaR(--hel);
+font-weight: 700;
+font-size: 16px;
+margin-bottom: 33px;
+}
+.footer__links span a{
+    text-decoration: solid;
+}
+.footer__links a{
+    color: var(--gray);
+    font-family: var(--hel);
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.footer__links a:hover{
+    color: var(--yellow);
+}
+.footer__info i{
+    font-size: 25px;
+    color: var(--white);
+    margin-right: 15px;
+}
+.footer__info a{
+    font-family: var(--hel);
+    font-size: 16px;
+    color: var(--white);
+}
+.footer__social-networks{
+    margin-left: 280px;
+}
+.footer__social-networks li{
+    margin-right: 25px;
+}
+.footer__about-icon a{
+    font-family: var(--gl);
+    font-size: 14px;
+    margin-top: 10px;
+    }
+    .footer__about-icon span{
+        font-family: var(--gb);
+        font-size: 18px;
+    }
+    .footer__about-icon i{
+        color: var(--gray);
+        font-size: 40px;
+        margin:15px 10px 0 0;
+    }
+    .footer__icons a{
+        margin-right: 15px;
+    }
+    .footer__about-text{
+        margin-top: 25px;
+    }
+    .footer__about-icon{
+        margin-right: 50px;
+    }
+    
+
+
